@@ -1,0 +1,59 @@
+#main{
+    height: 700px;
+    width: 60%;
+    border: 6px solid beige;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers child elements horizontally */
+    justify-content: center;
+    
+   
+} 
+h1 {
+    color: purple;
+    text-align: center;
+}
+#mydiv {
+    border: 1px solid black;
+    background-color: beige;
+    height: 500px;
+    width: 50%;
+    font-size: larger;
+    /* align-items: center; */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* text-align: center; */
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centers vertically */
+    justify-content: center; 
+    padding: 20px;
+    
+    
+    
+     
+}
+.myclass {  
+    
+    color: black;
+    align-content: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers child elements horizontally */
+    justify-content: center; /* Centers child elements vertically */
+    overflow: hidden;
+}
+
+
+* {
+    font-style: italic;
+    font-size: larger;
+}
+
+span img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
